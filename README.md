@@ -1,6 +1,6 @@
 # WizBar
 
-A macOS menu bar app for one Philips WiZ bulb. It talks to the bulb directly over the local UDP protocol (port 38899) and needs no cloud account. It does the same jobs as the `wizlight` CLI in `~/Development/wizlight-cli` and does not depend on it.
+A macOS menu bar app for one Philips WiZ bulb. It talks to the bulb directly over the local UDP protocol (port 38899) and needs no cloud account.
 
 Requires macOS 14 or later on Apple silicon.
 
@@ -24,7 +24,7 @@ Favorites save the current mode and brightness. Right-click a favorite to reorde
 
 Keys inside the panel: Space switches the light, the arrow keys change brightness by 5, 1/2/3 pick a tab, ⌘, opens settings.
 
-Settings hold the bulb's name and IP address (default `192.168.0.162`), a Test button that reads the bulb's module and firmware, a switch to keep the brightness next to the icon, the global shortcut switch, and Open at login.
+Settings hold the bulb's name and IP address, a Test button that reads the bulb's module and firmware, a switch to keep the brightness next to the icon, the global shortcut switch, and Open at login. The WiZ app shows the bulb's IP address in the light's settings, and your router lists it too.
 
 ## Build and install
 
